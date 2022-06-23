@@ -1,0 +1,1137 @@
+body{
+    width:1186px;
+    margin: 0 auto;
+    max-height:100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-image: url(img/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
+#logo_topo{
+    background:rgb(148, 180, 225);
+    text-align:center;
+    width: auto;
+    height: 125px;
+    margin-bottom: 20px;
+    background-image:url(img/android-chrome-192x192.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+#logo_topo h1{
+    color: blue;
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+.navbar ul li{
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    vertical-align: middle;
+    padding: 45px 0;
+    position: relative;
+    float:left;
+  
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: table-cell;
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+    background-color: rgb(218, 202, 202);
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    }
+
+.navbar ul li a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+/* section de slider*/
+.slider{
+    position: flex;
+}
+.container{
+    min-width: 100%;
+    max-height: 100vh;
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.swiper{
+    width:100%;
+    
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-next,.swiper .swiper-button-prev{
+    color:rgb(114, 111, 111);
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color: #fff;
+    vertical-align: center;
+}
+
+@media (max-width: 1200px) {
+    .banner, .banner img {
+        height: 582px;
+    }
+}
+@media (max-width: 991px) {
+    .banner, .banner img {
+        height: 482px;
+    }
+}
+@media (max-width: 767px) {
+    .banner, .banner img {
+        height: 382px;
+    }
+}
+/*section de recherche */
+#main8 {
+    
+    display: block;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+}
+#main8 h1{
+    margin-left: 485px;
+    color:#21deeb;
+    font-size: 30px;
+}
+#main8 label{
+    margin-left:500px ;
+    color:#fff;
+    font-size: 20px;
+}
+#chois a{
+    width: 100px;
+    height: 30px;
+    margin-left: 555px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#chois a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}  
+#main8 select{
+ margin-left: 550px;
+}
+#vendeur {
+   padding-left: 1px;
+   margin-left: 575px;
+}
+.title{
+    font-family: fantasy;
+    font-size:20px;
+    color: rgb(12, 9, 9);
+    margin:0px 0px 10px 0px;
+    padding: 10px 0px 0px 0xp;
+}
+.button {
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+    background-color: rgb(218, 202, 202);
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;  
+}
+.button:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+label{
+    display: block;
+}
+.button a{
+    text-decoration: none;
+}
+#info{
+    display: flex;
+    padding: 15px 0px;
+}
+.pages{
+    margin: auto;
+    padding: 50px;
+}
+.pages img{
+    width: 100px;
+}
+.footer{
+    width: 1160px;
+    display: flex;
+    background:rgba(38, 31, 31, 0.5);
+    padding: 1px 20px;
+    margin: 15px 0px 20px 0px;
+   justify-content: space-between;
+}
+footer p{
+    color: #fff;
+}
+.sociaux{
+    display: flex;
+    float: left;
+}
+.social{
+    width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    padding-right: 30px;
+}
+.social a{
+    color:#fff;
+    font-size: 1.5em;
+}
+@media screen and(max-device-width:450px) {
+   
+    header,section,footer{
+        padding-left:3%;
+        padding-right:3%;
+    }
+    header{
+        flex-direction: column;
+    }
+    header img{
+        width: 100%;
+        height: 100%;
+    }
+    header nav{
+        flex-direction: column;
+        width: 100%;
+    }
+        .bt_menu{
+            width: 100%;
+            height: 80px;
+            font-size: 30px;
+            flex-wrap: wrap;
+        }
+        .banner,footer,.info{
+            display: none;
+        }
+        form{
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .recherche form, #title h1{
+            width:100%;
+        }
+        .recherche h1,select,label{
+            font-size: 30px;
+        }
+}
+/*Pour entre login*/
+#f_login input{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(16, 15, 15);
+}
+#f_login label{
+    display: block;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#main{
+    width: 1186px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 450px;
+    background: rgba(128,128,128,0.5);
+    flex-direction: column;
+}
+
+#main h1{
+    margin-right: 50px;
+    padding-left: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#main_local{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 50px;
+    background: rgba(128,128,128,0.5);
+    flex-direction: column;
+}
+
+#main_local h1{
+    padding-left: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#bt-select{
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+    background-color: rgb(218, 202, 202);
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+
+/*button*/  
+#f_login input[type=submit]{
+    width: 120px;
+    height: 30px;
+    margin: 85px;
+    margin-top: 20px;
+    background-color: rgb(218, 202, 202);
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    vertical-align:middle;
+    border-radius: 10px;
+    color: rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+
+#f_login input[type=submit]:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+
+}
+
+#lgErro{
+    color: black;
+    display: flex;
+    border: 2px solid rgb(22, 21, 21);
+    font-size: 20px;
+    margin-left: 450px;
+    padding: 5px;
+    background-color: #aaa;
+    text-align: center;
+    width: 300px;
+}
+#compte{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    
+}
+
+#compte:hover{
+    text-decoration: underline;
+}
+/*Menu management*/
+#title h1{
+  
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-left:90px;
+    text-transform:uppercase ;
+}
+
+#title h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-left:10px;
+    text-transform:uppercase ;
+}
+.menu_manag {
+    display: inline-block;
+    padding-left: 35px;
+    margin: 25px 60px;
+  
+}
+.menub{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 120px;
+    margin:0px;
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    visibility: hidden;
+
+}
+
+.menub a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.menub a:hover{
+    color: #1016CD;
+    font-weight: bold;
+}
+  
+ p { 
+    padding-left: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f_vendeur label{
+    display: block;
+    padding-left: 70px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#f_seletion{
+    margin-left: 15px;
+}
+
+/*page marques et modèles*/
+#titles h1{
+  
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    text-transform:uppercase ;
+}
+
+#voitures_add{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 450px;
+    background: rgba(128,128,128,0.5);
+    display: none;
+}
+#voitures_add select{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#voitures_del{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 450px;
+    background: rgba(128,128,128,0.5);
+    display: none;
+}
+
+#voitures_del label{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#voitures_del select{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/*config page nouv_voiture*/
+#nouvelle_voiture{
+    width: 960px;
+    text-align: center;
+    display:block;
+   
+}
+#nouvelle_voiture  input[type=text]{
+    width: 200px;
+    color: #000;
+}
+#nouvelle_voiture h1{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+#nouvelle_voiture h2{
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+}
+
+#nouvelle_voiture select,input, textarea{
+    display: block;
+    margin-left: 550px;
+    margin-bottom: 10px;
+    color: rgb(26, 25, 25);
+  
+}
+#nouvelle_voiture label {
+    width:960px;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+
+
+}
+#nouvelle_voiture div{
+    width: 450px;
+    border: 1px solid #000;
+    display: block;
+   justify-content:space-between ;
+   margin-left: 400px;
+}
+#nouvelle_voiture div input{
+    margin-left: 0px;
+    display: inline;
+}
+#nouvelle_voiture div label{
+    color: #000;
+    font-weight: bold;
+    display: inline;
+}
+
+#nouvelle_voiture input[type=submit]{
+    width: 120px;
+    height: 30px;
+    margin: 85px;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: rgb(218, 202, 202);
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    vertical-align:middle;
+    border-radius: 10px;
+    color: rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#nouvelle_voiture input[type=submit]:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+/*page vendeur*/
+#main4 {
+    width: 1186px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+}
+#main4 h1{
+    margin-left: 485px;
+    color:#21deeb;
+}
+#main4 label{
+    margin-left:400px ;
+    color:#fff;
+}
+#main4 input{
+    margin-left: 490px;
+    margin-top: 5px;
+}
+#main4 input[type=submit]{
+    margin-left: 525px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main4 input[type=submit]:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#vendeur {
+   padding-left: 1px;
+   margin-left: 500px;
+}
+#main4 a{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main4 a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#main4 select{
+    margin-left: 500px;
+}
+/*page suprimer*/
+#main5 {
+    width: 1186px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+}
+#main5 h1{
+    margin-left: 485px;
+    color:#21deeb;
+    font-size: 30px;
+}
+#main5 label{
+    margin-left:400px ;
+    color:#fff;
+    font-size: 16px;
+}
+#main5 input{
+    margin-left: 525px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+    
+}
+#main5 input:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#main5 a{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main5 a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#main5 select{
+    width: auto;
+    margin-left: 500px;
+}
+#vendeur {
+   padding-left: 1px;
+   margin-left: 500px;
+}
+/*page modifier voiture*/
+#main6 {
+    width: 1186px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+}
+#main6 h1{
+    margin-left: 485px;
+    color:#21deeb;
+    font-size: 30px;
+}
+#main6 label{
+    margin-left:500px ;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#main6 input{
+    margin-left: 490px;
+    margin-top: 5px;
+}
+#main6 input[type=submit]{
+    margin-left: 540px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main6 input[type=submit]:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#vendeur {
+   padding-left: 1px;
+   margin-left: 550px;
+}
+#main6 a{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main6 a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#main6 select{
+    margin-left: 510px;
+
+}
+/*page supprimir voitures*/
+#main7 {
+    width: 1186px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+}
+#main7 h1{
+    margin-left: 485px;
+    color:#21deeb;
+    font-size: 30px;
+}
+#main7 label{
+    margin-left:480px ;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#main7 input{
+    margin-left: 490px;
+    margin-top: 5px;
+}
+#main7 input[type=submit]{
+    margin-left: 575px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main7 input[type=submit]:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+
+#main7 a{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 202, 202);
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color:rgb(29, 13, 242);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 0px;
+}
+#main7 a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+} 
+#main7 select{
+    width: auto;
+    margin-left: 470px;
+}
+/*page voitures*/
+#main1 ,#main2  #main3{
+    width: 1186px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+  
+}
+/*detail_mod*/
+#d1{
+    width:117px;   
+}
+#d2{
+    width: 100%;
+    display: flex;   
+}
+#tit{
+    background: rgb(214, 212, 212, 0.5);
+    width: 1045px;
+    height: 78px;
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+    padding: 5px;  
+}
+
+#t1 a, #t2 p{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#t1 a:hover{
+    text-decoration: underline;
+}
+#t1 a{
+    padding-top: 10px;
+}
+#donnes p{
+    color: #000;
+    font-weight: bold;
+}
+
+#nombres a{
+    color: #000;
+}
+
+/*page detail_mod*/
+#detail {
+    width: 1186px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+    border: 2px solid #1016CD;
+    padding-left: 10px;
+    background: rgba(128,128,128,0.5);
+}
+.mini{
+    width: 117px;
+    height: 88px;
+    display: flex;
+    margin: 5px;
+    border: 2px solid #fff;
+    box-sizing: content-box;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#dvminis{
+    margin-top: 30px;
+}
+#dvdet{
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+}
+
+#dvc1 , #dvc2{
+    width:200px;
+    font-weight: bold;
+    
+}
+#dvc2{
+    margin-left: 650px;
+}
+.prix{
+    color: #1016CD;
+}
+/*fenetre d'image*/
+#fen_img{
+    display: none;
+    position:fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    overflow: auto;
+}
+#img_gr{
+    max-width: 800px;
+    display: block;
+    width: 100%;
+}
+#fermer{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+/*Page de contact*/
+.formulario {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 600px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.formulario .formBx{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario .formBx form{
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 75px;
+}
+.formulario .formBx form h2{
+    color: rgb(26, 20, 20);
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.formulario .formBx form .inputBox{
+    position: relative;
+    margin-bottom: 40px;
+}
+.formulario .formBx form .inputBox:last-child{
+    margin-bottom: 0px;
+}
+.formulario .formBx form .inputBox input,
+.formulario .formBx form .inputBox textarea{
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 70%;
+    color: rgb(240, 216, 216);
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    resize: none;
+}
+.formulario .formBx form .inputBox textarea{
+    height: 100px;
+} 
+.formulario .formBx form .inputBox input[type="submit"]{
+    padding: 8px 20px;
+    margin-top: -10px;
+    width: 140px;
+    cursor: pointer;
+    color:rgb(254, 254, 254) ;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.formulario .formBx form .inputBox input[type="submit"]:focus{
+    background:rgb(29, 13, 242);
+    color:#111;
+}
+.formulario .formBx form .inputBox span{
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(244, 227, 227);
+    display: inline-block;
+    pointer-events: none;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+}
+
+.formulario .formBx form .inputBox input:focus,
+.formulario .formBx form .inputBox textarea:focus,
+.formulario .formBx form .inputBox input:valid,
+.formulario .formBx form .inputBox textarea:valid {
+    border-bottom-color:black;
+}
+
+#status{
+    width:10%;
+    max-width: 500px;
+    text-align: center;
+    padding: 0;
+    margin-left: 25px;
+    border-radius: 8px;
+   
+}
+#status.success{
+    background-color:rgb(29, 13, 242);
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: #ee0a0a;
+    color: rgb(15, 1, 1);
+    animation: status 4s ease  forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+/*carte google*/
+.map{
+    padding-left: 160px;
+}
+#cont_local{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+/*page recherche*/ 
+.bienvenue{
+    color: #1016CD;
+    text-align: left;
+    margin-left: 270px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#main3 label{
+    margin-left: 300px;
+    color: #1016CD;
+}
+#main3 select{
+    text-align: center;
+    margin-left: 350px;
+}
+#main3 input{
+    margin-left: 335px;
+    margin-top: 15px;
+}
